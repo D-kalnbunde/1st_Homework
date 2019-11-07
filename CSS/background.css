@@ -1,1 +1,17 @@
 /* All background styling */
+.big_banner{
+    background: url("/images/3d\ top\ image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+.footer_banner{
+    background: url("/images/3d\ top\ image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 10vh;
+}
