@@ -41,15 +41,12 @@ h1{
 .list_title{
     margin: 40px;
 }
-.ol_ul_div{
-    text-align: center;
-}
-.ul_ol{
-display:inline-block;
-text-align:left;
-}
 .list_items{
     font-size: 20px;
+}
+.ol_ul {
+    text-align: center;
+    list-style-position: inside;
 }
 .footer{
     text-align: center;
