@@ -41,10 +41,10 @@ h1{
 .list_title{
     margin: 40px;
 }
-.ul_div{
+.ol_ul_div{
     text-align: center;
 }
-.ul{
+.ul_ol{
 display:inline-block;
 text-align:left;
 }
