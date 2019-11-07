@@ -1,58 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>3D PRINTING</title>
+    <link rel="stylesheet" href="./CSS/styles.css">
 </head>
+
 <body>
     <header>
-        <h1>3D drukāšana</h1>
+        <h1>3D printing</h1>
     </header>
     <main>
-        <h2>Vēsture</h2>
-        <!-- links uz garāku vēsturi -->
-    <div>
-    <ol>
-        <!-- bilde -->
-        <li>
-        <p></p>
-        </li>
-        <!-- bilde -->
-        <li>
-        <p></p>
-        </li>
-        <!-- bilde -->
-        <li>
-        <p></p>
-        </li>
-        <!-- bilde -->
-        <li>
-        <p></p>
-        </li>
-        <!-- bilde -->
-        <li>
-        <p></p>
-        </li>
-        <!-- bilde -->
-        <li>
-        <p></p>
-        </li>
-    </ol>
-</div>
-<div>
-  <ul>
-      <li></li>
-      <li></li>
-      <li></li>
-  </ul>  
-</div>
+        <div class="hist_title">
+            <h2 class="titles">History</h2>
+            <p class="history_p">In 1981, Hideo Kodama of Nagoya Municipal Industrial Research Institute published his
+                account of a functional
+                rapid-prototyping system using photopolymers (more on those in a minute). A solid, printed model was
+                built up in layers,
+                each of which corresponded to a cross-sectional slice in the model. Sound familiar?
+
+                Three years later, in 1984, Charles Hull made 3D-printing history by inventing stereolithography.
+                Stereolithography lets
+                designers create 3D models using digital data, which can then be used to create a tangible object.
+
+                The key to stereolithography is a kind of acrylic-based material known as photopolymer. Hit a vat of
+                liquid photopolymer
+                with a UV laser beam, and the light-exposed portion will instantly turn into solid piece of plastic,
+                molded into the
+                shape of your 3D-model design. Needless to say, this new technology was big news to inventors, who could
+                now
+                theoretically prototype and test their designs without having to make a huge upfront investment in
+                manufacturing.</p>
+        </div>
+        <div>
+            <ol>
+                <img class="list_images" src="images\SLA-3D-Printer.jpg" alt="SLA 3d printer">
+                <h2 class="titles">Stereolithography (SLA)</h2>
+                <li class="list_numbers">
+                    <p>SLA is a fast prototyping process. Those who use this technology are serious about accuracy and
+                        precision. It can
+                        produce objects from 3D CAD data (computer-generated) files in just a few hours. This is a 3D
+                        printing process that’s
+                        popular for its fine details and exactness. Machines that use this technology produce unique
+                        models, patterns,
+                        prototypes, and various production parts. They do this by converting liquid photopolymers (a
+                        special type of plastic)
+                        into solid 3D objects, one layer at a time. The plastic is first heated to turn it into a
+                        semi-liquid form, and then it
+                        hardens on contact. The printer constructs each of these layers using an ultra violet laser,
+                        directed by X and Y
+                        scanning mirrors. Just before each print cycle, a recoater blade moves across the surface to
+                        ensure each thin layer of
+                        resin spreads evenly across the object. The print cycle continues in this way, building 3D
+                        objects from the bottom up.</p>
+                </li>
+                <img class="list_images" src="images\FMD_image.jpg" alt="FDM 3d printing">
+                <h2 class="titles">Fused Deposition Modeling (FDM) Technology</h2>
+                <li class="list_numbers">
+                    <p>FDM is a 3D printing process developed by Scott Crump, and then implemented by Stratasys Ltd., in
+                        the 1980s. It uses
+                        production grade thermal plastic materials to print its 3D objects. It’s popular for producing
+                        functional prototypes,
+                        concept models, and manufacturing aids. It’s a technology that can create accurate details and
+                        boasts an exceptional
+                        strength to weight ratio.
+
+                        Before the FDM printing process begins, the user has to slice the 3D CAD data (the 3D model)
+                        into multiple layers using
+                        special software. The sliced CAD data goes to the printer which then builds the object layer at
+                        a time on the build
+                        platform. It does this simply by heating and then extruding the thermoplastic filament through
+                        the nozzle and onto the
+                        base. The printer can also extrude various support materials as well as the thermoplastic. For
+                        example, as a way to
+                        support upper layers, the printer can add special support material underneath, which then
+                        dissolves after the printing
+                        process. As with all 3D printers, the time it takes to print all depends on the objects size and
+                        its complexity.</p>
+                </li>
+                <img class="list_images" src="images\SLS_image.jpg" alt="SLS 3d printing">
+                <h2 class="titles">Selective Laser Sintering (SLS) Technology</h2>
+                <li class="list_numbers">
+
+                    <p>The laser sinters powdered metal materials (though it can utilize other materials too, like white
+                        nylon powder, ceramics
+                        and even glass). Here’s how it works:
+
+                        The build platform, or bed, lowers incrementally with each successive laser scan. It’s a process
+                        that repeats one layer
+                        at a time until it reaches the object’s height. There is un-sintered support from other powders
+                        during the build process
+                        that surround and protect the model. This means the 3D objects don’t need other support
+                        structures during the build.
+                        Someone will remove the un-sintered powders manually after printing. SLS produces durable, high
+                        precision parts, and it
+                        can use a wide range of materials. It’s a perfect technology for fully-functional, end-use parts
+                        and prototypes. SLS is
+                        quite similar to SLA technology with regards to speed and quality. The main difference is with
+                        the materials, as SLS
+                        uses powdered substances, whereas SLA uses liquid resins. It’s this wide variety of available
+                        materials that makes SLA
+                        technology so popular for printing customized objects.</p>
+                </li>
+                <img class="list_images" src="images\Schematic-drawing-of-an-Electron-Beam-Melting-system-22.png"
+                    alt="EMB 3d printing">
+                <h2 class="titles">Electron Beam Melting (EBM) Technology</h2>
+                <li class="list_numbers">
+
+                    <p>A Swedish company called Arcam AB founded EBM® in 1997. This is a 3D printing technology similar
+                        to SLM (see above), in
+                        that it uses a powder bed fusion technique. The difference between the two is the power source.
+                        The SLM approach above
+                        uses high-powered laser in a chamber of noble, or inert gas. EBM, on the other hand, uses a
+                        powerful electron beam in a
+                        vacuum. Aside from the power source, the remaining processes between the two are quite similar.
+                        EBM’s main use is to 3D
+                        print metal parts. Its main characteristics are its ability to achieve complex geometries with
+                        freedom of design. EBM
+                        also produces parts that are incredibly strong and dense in their makeup.</p>
+                </li>
+            </ol>
+        </div>
+        <div>
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
     </main>
-<footer>
-    <!-- coppyright 2019
+    <footer>
+        <!-- coppyright 2019
     izveidoja DK
     UZ SĀKUMU(internal link) -->
-</footer>
+    </footer>
 </body>
+
 </html>
